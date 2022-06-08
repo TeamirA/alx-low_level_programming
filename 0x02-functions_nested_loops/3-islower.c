@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
+ * _islower - a function that checks for lowwercase character 
+ * @c: single letter input
+ * Return: 1 if int c is lowercase, 0 if otherwise
  */
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
-	else 
+	else
 		return (0);
 }
