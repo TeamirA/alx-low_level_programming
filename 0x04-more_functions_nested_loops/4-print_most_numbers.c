@@ -4,7 +4,7 @@
 /**
  * print_most_numbers - print numbers between 0 to 9 incl.
  * 
- * Return: void.
+ * Return: Void.
  */
 void print_most_numbers(void)
 {
