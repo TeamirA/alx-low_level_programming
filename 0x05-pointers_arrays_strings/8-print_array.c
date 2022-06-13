@@ -4,15 +4,16 @@
  * print_array - print n of int array
  * @a: pointer
  * @n: n
+ * Return: no return
  */
-void print_array(int *a, int *b)
+void print_array(int *a, int n)
 {
-	short c = 0;
+	int i = 0;
 
-	while (b-- > 0)
+	for (; i < n; i++)
 	{
-		printf("%d", a[c++]);
-		if (b != 0)
+		printf("%d", *(a + i));
+		if (i != (n - 1))
 			printf(", ");
 	}
 	printf("\n");
