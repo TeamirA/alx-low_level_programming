@@ -13,7 +13,7 @@ void rev_string(char *s)
 	{
 		n[c] = *s;
 		s++;
-		c++
+		c++;
 	}
 	c = 0;
 
