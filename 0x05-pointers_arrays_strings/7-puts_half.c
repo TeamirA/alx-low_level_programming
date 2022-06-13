@@ -16,7 +16,7 @@ if (len % 2 == 0)
 	{
 		_putchar(str[i]);
 	}
-	else if (len % 2)
+} else if (len % 2)
 	{
 		for (n = (len - 1) / 2; n < len - 1; n++)
 		{
