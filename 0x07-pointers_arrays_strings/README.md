@@ -1,0 +1,1 @@
+more excercise on pointer
