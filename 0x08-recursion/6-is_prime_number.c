@@ -20,10 +20,10 @@ int is_prime_number(int n)
  * Return: 0 if n is divisible by any of the number in the range, 1 otherwise
  */
 
-int prime (int n, int mid)
+int prime(int n, int mid)
 {
 	if (mid < 2)
-		return(1);
+		return (1);
 	if (n % mid == 0)
 		return (0);
 	else
